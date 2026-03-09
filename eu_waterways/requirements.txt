@@ -1,5 +1,6 @@
-pandas>=2.0
-requests>=2.31
-geopandas>=0.14
-shapely>=2.0
-tqdm>=4.66
+geopandas
+folium
+requests
+shapely
+tqdm
+pandas
