@@ -2,8 +2,6 @@
 
 Fetches rivers and canals across 24 European countries from OpenStreetMap via the Overpass API, saves them as GeoJSON, and renders an interactive map with Folium.
 
-[View interactive map](https://<your-username>.github.io/<repo-name>/eu_waterways/europe_navigable_waterways_map.html)
-
 ## What it does
 
 Queries each country for `waterway=river|canal` ways. It first tries a strict filter requiring `boat=yes|permissive`; if that returns nothing (common where boat access isn't explicitly tagged in OSM), it falls back to all rivers and canals. Results are merged into a single GeoDataFrame and exported.
